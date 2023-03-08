@@ -101,7 +101,6 @@ button.normal{
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 200px;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
     background-color: white;
@@ -260,3 +259,10 @@ flex-wrap: wrap;
     font-weight: 600;
     color: #222222;
 }
+
+/* solar farm start */
+#content{
+    margin: 30px 0;
+}
+
+/* solar farms end */

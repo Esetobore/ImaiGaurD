@@ -135,12 +135,12 @@ button.normal{
     justify-content: center;
 }
 
-#banner .container h1{
+#banner .bncontainer h1{
     color: #3b9ecf;
     
 }
 
-.container {
+.bncontainer {
     text-align: left;
     width: 70%;
     max-height: 100vh;

@@ -2,6 +2,15 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url("image/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 25% right 0;
+    
 }
 p {
     color: white;
@@ -57,12 +66,9 @@ button.normal{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     top: 0;
-    left: 0;
+    left: 0;   
 }
 
-.navbar h2{
-    color: white;
-}
 
 .navbar img{
     padding-bottom: 15px;
@@ -122,11 +128,11 @@ button.normal{
 
 
 #banner{
-    background-image: url("image/banner1.jpg");
+    /* background-image: url("image/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top 25% right 0;
-    height: 85vh;
+    background-position: top 25% right 0; */
+    height: 83%;
     width: 100%;
     padding: 0 80px;
     display: flex;
@@ -266,3 +272,39 @@ flex-wrap: wrap;
 }
 
 /* solar farms end */
+
+@media (max-width:480px){
+    #header{
+        padding:10px 40px 0 5px; ;
+    }
+
+    .navbar img{
+        padding-bottom: 10px;
+        width: 100px;
+        height: auto;
+    } 
+
+
+    .nav-container h4,a{
+        font-size: 10px;
+    }
+
+
+    #banner{
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .bncontainer{
+        width: 100%;
+    }
+
+    #banner .bncontainer h1{
+        color: #3b9ecf;
+        font-size: 40px;
+    }
+
+    #banner .bncontainer h4{
+        font-size: 25px;
+    }
+}

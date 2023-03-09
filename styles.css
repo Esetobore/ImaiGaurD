@@ -6,10 +6,10 @@
 }
 
 body{
-    background-image: url("image/banner1.jpg");
+    /* background-image: url("image/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: top 25% right 0; */
     
 }
 p {
@@ -128,11 +128,11 @@ button.normal{
 
 
 #banner{
-    /* background-image: url("image/banner1.jpg");
+    background-image: url("image/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top 25% right 0; */
-    height: 83%;
+    background-position: top 25% right 0;
+    height: 83vh;
     width: 100%;
     padding: 0 80px;
     display: flex;
@@ -293,6 +293,7 @@ flex-wrap: wrap;
     #banner{
         text-align: center;
         padding: 0 20px;
+        height: 91.5vh;
     }
 
     .bncontainer{

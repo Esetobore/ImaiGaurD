@@ -77,6 +77,7 @@ button.normal{
 .nav-container{
     display: flex;
     flex-direction: row;
+    
 }
 
 .nav-container h4{
@@ -126,6 +127,11 @@ button.normal{
     background-color: #8CA8B6;
   }
 
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+  }
 
 #banner{
     background-image: url("image/banner1.jpg");

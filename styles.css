@@ -122,7 +122,14 @@ button.normal{
     padding: 5px;
     text-decoration: none;
   }
+
+  /* delete later */
   .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #8CA8B6;
+  }
+
+  .dropdown-item:hover{
     color: #FFFFFF;
     background-color: #8CA8B6;
   }
@@ -154,11 +161,13 @@ button.normal{
 
 .bncontainer {
     text-align: left;
-    width: 70%;
+    width: 50%;
     max-height: 100vh;
 }
 
-
+.subanner{
+    color: white;
+}
 
 #services{
     

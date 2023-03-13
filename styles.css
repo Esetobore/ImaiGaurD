@@ -35,8 +35,13 @@ h4{
 }
 
 /* nav bar new */
+.dropdown-menu li a{
+    color: #000000;
+}
+
 .dropdown-menu li a:hover{
-    background-color: #3b9ecf;
+    background-color: #5d6163;
+    color: white;
 
 }
 /* ends */
@@ -280,6 +285,8 @@ nav{
 article{
     font-size: large;
     line-height: 30px;
+    margin-top: 15px;
+    padding: 10px;
 }
 .footer_info li a{
     text-decoration: none;

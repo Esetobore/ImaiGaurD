@@ -285,6 +285,8 @@ nav{
 article{
     font-size: large;
     line-height: 30px;
+    margin-top: 15px;
+    padding: 10px;
 }
 .footer_info li a{
     text-decoration: none;

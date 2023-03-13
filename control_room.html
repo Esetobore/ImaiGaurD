@@ -13,44 +13,90 @@
     />
   </head>
   <body>
-    <section id="header">
-      <div class="navbar"><a href="index.html">
-                <img src="image/IMG_logo.png" alt="" />
-      </a>
-
-      </div>
-
-      <div class="nav-container">
-        <div class="dropdown">
-          <h4>Services</h4>
-          <div class="dropdown-content dropdown-menu">
-            <a href="#" class="dropdown-item">Surveillance Solutions</a>
-            <a href="#" class="dropdown-item">Monitoring Solutions</a>
-            <a href="#" class="dropdown-item">Perimeter Intrusion Detection</a>
-            <a href="#" class="dropdown-item">Off-Grid Solutions</a>
-            <a href="#" class="dropdown-item">Remote Control Center</a>
-          </div>
+    <nav class="navbar navbar-expand-lg" id="header">
+      <div class="container-fluid nav-container">
+        <div class="navbar"><a href="index.html">
+            <img src="image/IMG_logo.png" alt="">
+          </a>
         </div>
-
-        <div class="dropdown">
-          <h4>Industries</h4>
-          <div class="dropdown-content dropdown-menu">
-            <a href="oil_gas.html" class="dropdown-item">Oil & Gas</a>
-            <a href="finance.html" class="dropdown-item">Banking & Finance Sector</a>
-            <a href="agriculture.html" class="dropdown-item">Agricultural Sector</a>
-            <a href="power_energy.html" class="dropdown-item">Power amd Energy Sector</a>
-            <a href="Education.html" class="dropdown-item">Educational Institutions</a>
-            <a href="telecom.html" class="dropdown-item">Telecommunications Sector</a>
-            <a href="Manufacturing.html" class="dropdown-item">Manufacturing Sector</a>
-            <a href="critical_infa.html" class="dropdown-item">Critical Infrasctructure Protection</a>
-            <a href="solarfarms.html" class="dropdown-item">Solar Farms</a>
-            <a href="oil_gas.html" class="dropdown-item">Homes & SMEs</a>
-          </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Applications
+              </a>
+              <ul class="dropdown-menu ">
+                <li class="nav-item dropend">
+                  <a class="nav-link dropdown-toggle text-dark" href="" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Defense
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-left dropend">
+                    <li><a class="dropdown-item text-dark" href="water.html">Sea</a></li>
+                    <li><a class="dropdown-item text-dark" href="air.html">Air</a></li>
+                    <li><a class="dropdown-item text-dark" href="land.html">Land</a></li>
+                    <li><a class="dropdown-item text-dark" href="critical_infar_def.html">Critical Infrasctructure</a>
+                    </li>
+                    <li><a class="dropdown-item text-dark" href="border_sec.html">Border Security</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropend">
+                  <a class="nav-link dropdown-toggle text-dark" href="" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Commercial
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-left">
+                    <li><a class="dropdown-item text-dark" href="agriculture.html">Agricultural Sector</a></li>
+                    <li><a class="dropdown-item text-dark" href="oil_gas.html">Oil and Gas Sector</a></li>
+                    <li><a class="dropdown-item text-dark" href="telecom.html">Telecommunications Sector</a></li>
+                    <li><a class="dropdown-item text-dark" href="finance.html">Banking and Finance Sector</a></li>
+                    <li><a class="dropdown-item text-dark" href="Manufacturing.html">Manufacturing Sector</a></li>
+                    <li><a class="dropdown-item text-dark" href="power_energy.html">Power and Energy Sector</a></li>
+                    <li><a class="dropdown-item text-dark" href="Education.html">Educational Institutions</a></li>
+                    <li><a class="dropdown-item text-dark" href="agriculture.html">Agricultural Sector</a></li>
+                    <li><a class="dropdown-item text-dark" href="solarfarms.html">Solar Farms</a></li>
+                    <li><a class="dropdown-item text-dark" href="homes_smes.html">Homes and SMEs</a></li>
+                    <li><a class="dropdown-item text-dark" href="critical_infa.html">Critical Infrasctructure Protection</a></li>
+                  
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Technologies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-dark" href="#">Surveillance and Monitoring Systems</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Physical and Cybersecurity</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Information Communication Technologies</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-dark" href="surveillance.html">Surveillance Solutions</a></li>
+                <li><a class="dropdown-item text-dark" href="monitoring.html">Monitoring Solutions</a></li>
+                <li><a class="dropdown-item text-dark" href="perimeter_intrustion.html">Perimeter Intrustion Detection</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Off Grid Solutions</a></li>
+                <li><a class="dropdown-item text-dark" href="control_room.html">Remote Control Center</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
         </div>
-
-        <h4 class="aboutus"><a href="#">About Us</a></h4>
       </div>
-    </section>
+    </nav>
+  
 
     <section id="carousel" class="container">
       <h1 class="text-dark">Remote Monitoring Centre</h1>
@@ -61,7 +107,7 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="image/control_room1.jpg" class="d-block w-100" alt="..." />
+            <img src="image/control_room2.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
             <img src="image/control_room2.jpg" class="d-block w-100" alt="..." />
@@ -90,7 +136,7 @@
 
     <section id="content" class="container-fluid">
       <div class="container">
-        <article class="container">
+        <article class="container text-justify">
           Remote Monitoring Centers are essential to our security solutions. As a company dedicated to providing comprehensive security solutions to our clients, we understand the importance of having a centralized hub to monitor and respond to security events.
 Our remote monitoring centre is a state-of-the-art facility that is equipped with the latest technologies, including advanced surveillance systems, access control solutions, and perimeter protection technologies. Our remote monitoring centre can be customized to meet your specific needs. We can monitor a range of security systems, including video surveillance systems, intrusion detection systems, access control solutions, and fire alarm systems.  The benefits of having a remote monitoring centre are numerous. For one, it provides a centralized hub for monitoring security systems, which can help to reduce the risk of false alarms and improve response times. Our remote monitoring centre is staffed 24/7, ensuring that your facility is always being monitored for potential security threats. In addition, having a remote monitoring centre can help to reduce the cost of security. Rather than having to hire on-site security personnel, our remote monitoring centre can provide a cost-effective alternative. Our highly trained security professionals can monitor your facility remotely and respond to security events in real-time, reducing the need for on-site security personnel. Our remote monitoring centre is also scalable, meaning that we can increase or decrease the level of monitoring and response as your needs change. This allows for flexibility in your security solutions and ensures that you are always getting the level of protection that you need.
 Another advantage of having a remote monitoring centre is that it provides an additional layer of protection for your facility. Our centre is staffed by highly trained security professionals who are experts in detecting potential security threats and responding rapidly to security events. This ensures that any security events are dealt with in a timely and effective manner, reducing the risk of damage or loss. These services are designed to provide a comprehensive security solution for our clients, ensuring that their facilities are protected from potential security threats. Our remote monitoring centre is also equipped with redundant systems to ensure that we can continue to provide monitoring and response services even in the event of a power outage or other disruption. Our centre is also backed up by a disaster recovery plan, ensuring that we can continue to provide services even in the event of a major disaster.
@@ -115,6 +161,10 @@ Another advantage of having a remote monitoring centre is that it provides an ad
             <li class="nav-item"><a href="#" class="nav-link px-2 text-dark">About</a></li>
           </ul>
         </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

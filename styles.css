@@ -342,12 +342,6 @@ article{
     }
 }
 
-@media (max-width: 1200px) {
-    #banner{
-        height: 100vh;
-    }
-}
-
 .formy {
     margin: 20px;
 }

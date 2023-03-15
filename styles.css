@@ -347,3 +347,11 @@ article{
         height: 100vh;
     }
 }
+
+.formy {
+    margin: 20px;
+}
+
+#message{
+    width: 206%;
+}

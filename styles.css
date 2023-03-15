@@ -340,8 +340,8 @@ article{
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width:1025px) {
     #banner{
-        height: 100vh;
+        height: 110%;
     }
 }

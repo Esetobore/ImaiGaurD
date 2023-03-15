@@ -349,3 +349,17 @@ article{
 #message{
     width: 206%;
 }
+.submitbtn {
+    width: 100%;
+    height: 50px;
+}
+.form-label{
+    margin-top: 20px;
+}
+#contactus{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#indexsub {
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+}
